@@ -1,18 +1,13 @@
-#include <stdio.h>
- 
-int main()
+//angle calc
+#include<stdio.h>
+#include<math.h>
+void main()
 {
-    int num1, num2, num3;
- 
-    print("Enter the 3 numbers : \n");
-    scanf("%d %d %d", &num1, &num2, &num3);
- 
-    if((num1 > num2 && num1 < num3) || (num1 < num2 && num1 > num3))
-        printf("%d is the middle number.", num1);
-    else if((num2 > num1 && num2 < num3) || (num2 < num1 && num2 > num3))
-        printf("%d is the middle number.", num2);
-    else 
-        printf("%d is the middle number.", num3);
- 
-    return 0;
+    printf("Enter the coeff of line--");
+    double a,b,c;
+    scanf("%lf %lf %lf",&a,&b,&c);
+    double s=-a/b;
+    printf("The slope--%lf",s);
+    if(a==0)
+        printf("The line is vertical");
 }

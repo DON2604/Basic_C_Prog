@@ -1,19 +1,13 @@
-//largest among 3
-# include <stdio.h>
+//angle calc
+#include<stdio.h>
+#include<math.h>
 void main()
 {
-    int a,b,c,d,x;
-    printf("Enter a nos=");
-    scanf("%d %d %d %d %d",&a,&b,&c,&d);
-    printf("\nEnter nos to be searched=");
-    scanf("%d",&x);
-    printf("\nNos found is=");
-    if(x==a)
-    printf("%d",a);
-    else if (x==b)
-    printf("%d",b);
-    else if(x==c)
-    printf("%d",c);
-    else if (x==d)
-    printf("%d",d);
+    printf("Enter the sides--");
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a*a==(c*c+b*b))
+        printf("Angle is 90");
+    else
+        printf("Angle is not 90");
 }
