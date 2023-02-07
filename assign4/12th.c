@@ -13,7 +13,7 @@ void main()
     printf("C");
     else if(m>50 && m<60)
     printf("D");
-    else if(m>35 && m<849)
+    else if(m>35 && m<49)
     printf("P");
     else
     printf("F");
