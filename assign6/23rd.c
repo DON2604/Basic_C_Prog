@@ -1,4 +1,4 @@
-//22.	Write a program, which finds the sum of numbers formed by consecutive digits of an integer number. Input 2415 output 24+41+15=80
+//23.	Write a program to find sum of numbers formed by exchanging consecutive digits. Input 2415 output: 42+14+51=107
 # include<stdio.h>
 void main()
 {
@@ -8,7 +8,7 @@ void main()
     while(a>9)
     {
         r=a%10;
-        s=s+((a/10)%10)*10+r;
+        s=s+((a/10)%10)+r*10;
         a=a/10;
         }
         printf("%d",s);
