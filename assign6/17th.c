@@ -2,6 +2,10 @@
 # include<stdio.h>
 void main()
 {
-    int a,r=0;
+    int a,r=0,c=0;
     scanf("%d",&a);
-    
+    while(a%2!=0 && c<2)
+    {
+        r=a%10;
+        
+    }
